@@ -19,14 +19,14 @@ class ViewController: UIViewController {
     let prevButton: UIButton = {
         let button = UIButton(type: .custom)
         button.setTitle("◀️", for: .normal)
-        button.titleLabel?.font = UIFont.boldSystemFont(ofSize: 40)
+        button.titleLabel?.font = UIFont.boldSystemFont(ofSize: 32)
         return button
     }()
 
     let nextButton: UIButton = {
         let button = UIButton(type: .custom)
         button.setTitle("▶️", for: .normal)
-        button.titleLabel?.font = UIFont.boldSystemFont(ofSize: 40)
+        button.titleLabel?.font = UIFont.boldSystemFont(ofSize: 32)
         return button
     }()
 

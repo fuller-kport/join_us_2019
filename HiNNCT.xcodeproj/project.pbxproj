@@ -18,6 +18,15 @@
 		0110E208227FFB2F00D570D0 /* Page04ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0110E207227FFB2F00D570D0 /* Page04ViewController.swift */; };
 		0110E20A2280022E00D570D0 /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0110E2092280022E00D570D0 /* Page.swift */; };
 		0110E20C228007B300D570D0 /* Pages.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0110E20B228007B300D570D0 /* Pages.storyboard */; };
+		019E515122804C5800D3D175 /* SparkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019E515022804C5800D3D175 /* SparkView.swift */; };
+		019E515522804D8C00D3D175 /* CreateSparkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019E515422804D8C00D3D175 /* CreateSparkView.swift */; };
+		019E515722804EEC00D3D175 /* SparkTrajectory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019E515622804EEC00D3D175 /* SparkTrajectory.swift */; };
+		019E51592280503800D3D175 /* CreateSparkTrajectory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019E51582280503800D3D175 /* CreateSparkTrajectory.swift */; };
+		019E515B2280519700D3D175 /* Firework.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019E515A2280519700D3D175 /* Firework.swift */; };
+		019E515D2280539E00D3D175 /* BasicFirework.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019E515C2280539E00D3D175 /* BasicFirework.swift */; };
+		019E515F228059A400D3D175 /* CGPoint+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019E515E228059A400D3D175 /* CGPoint+Extensions.swift */; };
+		019E516122805D5400D3D175 /* FireworkAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019E516022805D5400D3D175 /* FireworkAnimator.swift */; };
+		019E516322806B3900D3D175 /* FireworkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019E516222806B3800D3D175 /* FireworkController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +43,15 @@
 		0110E207227FFB2F00D570D0 /* Page04ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page04ViewController.swift; sourceTree = "<group>"; };
 		0110E2092280022E00D570D0 /* Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
 		0110E20B228007B300D570D0 /* Pages.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Pages.storyboard; sourceTree = "<group>"; };
+		019E515022804C5800D3D175 /* SparkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SparkView.swift; sourceTree = "<group>"; };
+		019E515422804D8C00D3D175 /* CreateSparkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateSparkView.swift; sourceTree = "<group>"; };
+		019E515622804EEC00D3D175 /* SparkTrajectory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SparkTrajectory.swift; sourceTree = "<group>"; };
+		019E51582280503800D3D175 /* CreateSparkTrajectory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateSparkTrajectory.swift; sourceTree = "<group>"; };
+		019E515A2280519700D3D175 /* Firework.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Firework.swift; sourceTree = "<group>"; };
+		019E515C2280539E00D3D175 /* BasicFirework.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicFirework.swift; sourceTree = "<group>"; };
+		019E515E228059A400D3D175 /* CGPoint+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGPoint+Extensions.swift"; sourceTree = "<group>"; };
+		019E516022805D5400D3D175 /* FireworkAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FireworkAnimator.swift; sourceTree = "<group>"; };
+		019E516222806B3800D3D175 /* FireworkController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FireworkController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +96,15 @@
 				0110E205227FFB1000D570D0 /* Page03ViewController.swift */,
 				0110E207227FFB2F00D570D0 /* Page04ViewController.swift */,
 				0110E2092280022E00D570D0 /* Page.swift */,
+				019E515022804C5800D3D175 /* SparkView.swift */,
+				019E515622804EEC00D3D175 /* SparkTrajectory.swift */,
+				019E515422804D8C00D3D175 /* CreateSparkView.swift */,
+				019E51582280503800D3D175 /* CreateSparkTrajectory.swift */,
+				019E515A2280519700D3D175 /* Firework.swift */,
+				019E516022805D5400D3D175 /* FireworkAnimator.swift */,
+				019E516222806B3800D3D175 /* FireworkController.swift */,
+				019E515C2280539E00D3D175 /* BasicFirework.swift */,
+				019E515E228059A400D3D175 /* CGPoint+Extensions.swift */,
 			);
 			path = HiNNCT;
 			sourceTree = "<group>";
@@ -154,12 +181,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				019E516322806B3900D3D175 /* FireworkController.swift in Sources */,
+				019E515F228059A400D3D175 /* CGPoint+Extensions.swift in Sources */,
 				0110E1F2227FF63800D570D0 /* ViewController.swift in Sources */,
 				0110E208227FFB2F00D570D0 /* Page04ViewController.swift in Sources */,
+				019E515522804D8C00D3D175 /* CreateSparkView.swift in Sources */,
 				0110E1F0227FF63800D570D0 /* AppDelegate.swift in Sources */,
+				019E51592280503800D3D175 /* CreateSparkTrajectory.swift in Sources */,
 				0110E206227FFB1000D570D0 /* Page03ViewController.swift in Sources */,
+				019E515722804EEC00D3D175 /* SparkTrajectory.swift in Sources */,
 				0110E202227FFACB00D570D0 /* Page01ViewController.swift in Sources */,
 				0110E204227FFAF200D570D0 /* Page02ViewController.swift in Sources */,
+				019E515122804C5800D3D175 /* SparkView.swift in Sources */,
+				019E515D2280539E00D3D175 /* BasicFirework.swift in Sources */,
+				019E515B2280519700D3D175 /* Firework.swift in Sources */,
+				019E516122805D5400D3D175 /* FireworkAnimator.swift in Sources */,
 				0110E20A2280022E00D570D0 /* Page.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
